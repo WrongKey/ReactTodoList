@@ -1,4 +1,5 @@
 var AppActions = require('src/js/actions/appActions')
+var React = require('react');
 
 var AddForm = React.createClass({
     getInitialState: function () {

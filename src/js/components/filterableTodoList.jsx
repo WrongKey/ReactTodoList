@@ -1,4 +1,6 @@
 var AppActions = require('src/js/actions/appActions')
+var ReactDOM = require('react-dom');
+var React = require('react');
 
 var FilterableTodoList = React.createClass({
     render: function () {
@@ -11,3 +13,8 @@ var FilterableTodoList = React.createClass({
         );
     }
 });
+
+ReactDOM.render(
+    <FilterableTodoList todoList={AppActions.loadTodoList()}/>,
+    document.getElementById('app')
+);

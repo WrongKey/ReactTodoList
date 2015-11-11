@@ -1,5 +1,6 @@
 var AppActions = require('src/js/actions/appActions')
 var TodoRow = require('src/js/components/todoRow')
+var React = require('react');
 
 var TodoList = React.createClass({
 

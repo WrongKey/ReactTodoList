@@ -1,3 +1,5 @@
+var React = require('react');
+
 var TodoRow = React.createClass({
     render: function () {
         return (
