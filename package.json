@@ -1,0 +1,22 @@
+{
+  "name": "react_todo_list",
+  "version": "1.0.0",
+  "description": "todo list based on react and reflux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "reflux",
+    "todo"
+  ],
+  "author": "mengli&kai",
+  "license": "ISC",
+  "dependencies": {
+    "eventemitter": "^0.3.3",
+    "react": "^0.14.2",
+    "reflux": "^0.3.0",
+    "reflux-core": "^0.3.0"
+  }
+}
